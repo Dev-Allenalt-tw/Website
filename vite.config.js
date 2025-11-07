@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "./", // <— CHANGE this to "./" instead of "/"
+  base: "./", // ✅ makes Vite load assets correctly after build
 });
